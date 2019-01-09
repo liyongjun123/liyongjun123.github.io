@@ -72,7 +72,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="Linux,">
 
 
 
@@ -83,17 +83,21 @@
 
 
 
-<meta name="description" content="wechat:lyj_wswswws">
-<meta property="og:type" content="website">
-<meta property="og:title" content="about">
-<meta property="og:url" content="https://gblog.lyjiot.cn/about/index.html">
+<meta name="description" content="1、安装yum install mailx 2、设置vim /etc/mail.rc在文件最后添加 set from=1160606604@qq.com set smtp=smtp.qq.com set smtp-auth-user=1160606604@qq.com set smtp-auth-password=xxxxx set smtp-auth=login 注意：set smtp-auth">
+<meta name="keywords" content="Linux">
+<meta property="og:type" content="article">
+<meta property="og:title" content="linux发送邮件">
+<meta property="og:url" content="https://gblog.lyjiot.cn/2019/01/07/linux发送邮件/index.html">
 <meta property="og:site_name" content="Li Yongjun">
-<meta property="og:description" content="wechat:lyj_wswswws">
+<meta property="og:description" content="1、安装yum install mailx 2、设置vim /etc/mail.rc在文件最后添加 set from=1160606604@qq.com set smtp=smtp.qq.com set smtp-auth-user=1160606604@qq.com set smtp-auth-password=xxxxx set smtp-auth=login 注意：set smtp-auth">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-09T14:37:18.591Z">
+<meta property="og:image" content="https://i.imgur.com/wvSzxOP.png">
+<meta property="og:image" content="https://i.imgur.com/bzkcopt.png">
+<meta property="og:updated_time" content="2019-01-09T14:57:17.452Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="about">
-<meta name="twitter:description" content="wechat:lyj_wswswws">
+<meta name="twitter:title" content="linux发送邮件">
+<meta name="twitter:description" content="1、安装yum install mailx 2、设置vim /etc/mail.rc在文件最后添加 set from=1160606604@qq.com set smtp=smtp.qq.com set smtp-auth-user=1160606604@qq.com set smtp-auth-password=xxxxx set smtp-auth=login 注意：set smtp-auth">
+<meta name="twitter:image" content="https://i.imgur.com/wvSzxOP.png">
 
 
 
@@ -123,7 +127,7 @@
 
 
 
-  <link rel="canonical" href="https://gblog.lyjiot.cn/about/">
+  <link rel="canonical" href="https://gblog.lyjiot.cn/2019/01/07/linux发送邮件/">
 
 
 
@@ -145,7 +149,7 @@
 </style>
 
 
-  <title>about | Li Yongjun</title>
+  <title>linux发送邮件 | Li Yongjun</title>
   
 
 
@@ -296,34 +300,185 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://gblog.lyjiot.cn/2019/01/07/linux发送邮件/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="lyndon">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Li Yongjun">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">about</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <p>wechat:lyj_wswswws</p>
-
+          <h1 class="post-title" itemprop="name headline">linux发送邮件</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-07T21:45:24+08:00">
+                2019-01-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/01/07/linux发送邮件/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/01/07/linux发送邮件/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p>1、安装<br>yum install mailx</p>
+<p>2、设置<br>vim /etc/mail.rc<br>在文件最后添加</p>
+<pre><code>set from=1160606604@qq.com
+set smtp=smtp.qq.com
+set smtp-auth-user=1160606604@qq.com
+set smtp-auth-password=xxxxx
+set smtp-auth=login
+</code></pre><p>注意：<br>set smtp-auth-password=xxxxx 这里填写的并不是邮箱密码，而是邮箱授权码。<br>授权码需要登录自己的邮箱去设置获取<br><img src="https://i.imgur.com/wvSzxOP.png" alt=""></p>
+<p>3、发送<br>echo “hello,this is the content of mail” | mail -s “Hello mail” <a href="mailto:164413728@qq.com" target="_blank" rel="noopener">164413728@qq.com</a></p>
+<p>4、查看<br><br><br><img src="https://i.imgur.com/bzkcopt.png" alt=""></p>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Linux/" rel="tag"># Linux</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/01/08/我的第一篇博客/" rel="prev" title="我的第一篇博客">
+                我的第一篇博客 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
