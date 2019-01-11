@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[linux 工具]]></title>
+    <url>%2F2019%2F01%2F11%2Flinux-cmd%2F</url>
+    <content type="text"><![CDATA[-h --help man时刻记得帮助文档 -h以可读格式显示 aliasalias ll=’ls -l’给较长的指令 ls -l 取别名alias -p显示已经设置的命令的别名 bc计算器 cal显示日历 curlcurl www.lyjiot.cn显示路径下的html内容curl -o v2.html www.lyjiot.cn/data/v2.html下载文件 diff# diff v2.txt test.txt -y -w 50功能:文件比较-y 并排格式输出 -W 栏宽“|”表示前后2个文件内容有不同“&lt;”表示后面文件比前面文件少了1行内容“&gt;”表示后面文件比前面文件多了1行内容 export设置或显示环境变量 jobs查看当前有多少在后台运行的命令 lnln [参数][源文件或目录][目标文件或目录]创建硬链接文件ttln tt.txt tt创建软链接文件testln -s test.txt test lsoflsof -i:4000查看指定端口有哪些进程在使用 routeroute rpm安装/卸载软件包rpm -qa列出安装过的包 teeping www.baidu.com | tee ping.log假设因为某些原因，你正在使用ping命令，同时又想将这些信息写入文件，这时候，tee命令就派上用场了tee treetree ./显示指定目录的文件结构 type用于判断另外一个命令是否是内置命令 unameuname -m显示机器的处理器架构uname -r显示正在使用的内核版本 vim取消缩进: set paste自动缩进: set ai!]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[STM32之GPIO输入输出原理]]></title>
     <url>%2F2019%2F01%2F09%2FGPIO%2F</url>
     <content type="text"><![CDATA[一般初学者心中都有这样一个疑惑：为什么我写个程序就能控制一个引脚输出高低电平？为什么]]></content>
